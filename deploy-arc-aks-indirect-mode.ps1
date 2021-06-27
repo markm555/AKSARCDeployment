@@ -122,7 +122,6 @@ $arc_profile = 'azure-arc-aks-default-storage'
 
 azdata arc dc create --connectivity-mode Indirect -n $dcname -ns $namespace -s $selection[$script] -g $script -l eastus -sc default --profile-name $arc_profile
 
-
 CMD.EXE /C .azure-kubectl\kubectl get pods -A -o wide do -w 
 
 write-host "***********************************************************************************************"
