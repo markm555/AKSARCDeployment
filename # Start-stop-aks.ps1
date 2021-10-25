@@ -1,6 +1,4 @@
-# Script to deploy an AKS Cluster and install a custom location and ARC for Kubernetes
-# This will provide you with a working platform capable of hosting all of the ARC services that run on Kubernetes
-# Such as ARC Data Controller, ARC SQL MI, ARC Postgres (Citus), ARC Azure ML.  More services are coming to this platform
+# Script to start and stop individual AKS clusters in Azure.
 #
 # 06/19/2021 - Created - Mark Moore (markm@microsoft.com)
 
